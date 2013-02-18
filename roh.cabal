@@ -1,0 +1,13 @@
+Name          : roh
+Version       : 0.0.1
+Description   : Ruby implementation in Haskell
+License       : Apache-2.0
+License-file  : LICENSE
+Author        : Heath Matlock
+Maintainer    : heath.matlock@gmail.com
+Build-Type    : Simple
+Cabal-Version : >=1.14
+
+Executable roh
+  Main-is       : ruby.hs
+  Build-Depends : base >= 4
